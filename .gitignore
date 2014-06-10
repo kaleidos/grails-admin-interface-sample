@@ -1,0 +1,10 @@
+.claspath
+.project
+.settings
+cobertura.ser
+*.swp
+target/
+plugin.xml
+bower_components
+node_modules
+.sass-cache
