@@ -66,7 +66,6 @@ grails.project.dependency.resolution = {
         runtime ":hibernate4:4.3.5.3" // or ":hibernate:3.6.10.15"
 
         compile ":spring-security-core:2.0-RC3"
-        compile ":admin-interface:0.6.1"
-
+        compile ":admin-interface:0.6.2-SNAPSHOT"
     }
 }
