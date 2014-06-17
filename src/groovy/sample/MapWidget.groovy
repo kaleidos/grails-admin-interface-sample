@@ -22,7 +22,7 @@ class MapWidget extends Widget {
         htmlAttrs.each{key, value ->
             html.append("$key='${value}' ")
         }
-        html.append("value='${value}' />")
+        html.append("value='${value?:''}' />")
         html.append("</div>")
         html.append("</div>")
         return html
