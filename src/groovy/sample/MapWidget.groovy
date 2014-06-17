@@ -29,8 +29,9 @@ class MapWidget extends Widget {
     }
 
     List<String> getAssets() {
-        [ 'js/admin/map.js',
+        def results = [ 'js/admin/map.js',
           'css/admin/map.css'
         ]
+        return results.collect { ["file":it]  }
     }
 }
